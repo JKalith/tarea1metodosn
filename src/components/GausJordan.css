@@ -1,0 +1,86 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.container__inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.title {
+    padding: 2rem;
+}
+
+.title h1{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.inputs{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.input p{
+    font-weight: 500;
+}
+
+.eliminar{
+    color: #fff;
+}
+
+
+
+/* matrix__inicial  */
+
+.matrix__inicial h2 {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem ;
+
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.container__matrix{
+    padding: 1rem;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.matrix {
+    padding: 1rem;
+}
+
+
+.matrix td {
+    font-weight: bold;
+    text-align: center;
+}
